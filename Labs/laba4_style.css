@@ -1,0 +1,105 @@
+p,h1{
+    font-weight: bold;
+    color: rgb(66, 66, 66)
+}
+
+.wrapper {
+    display: grid;
+    border: 2px solid grey;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+  }
+
+  .box {
+    border: 2px solid grey;
+    min-height: 100px;
+  }
+  .one, .two, .three, .four{
+    border: 0;
+    padding-bottom: 20px;   
+  }
+
+  .six, .seven, .eight{
+    grid-row: 2 / 4;
+  }
+
+  .nine, .ten{
+    grid-row: 4 / 6;
+  }
+
+  .one{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .one h1{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .two, .three{
+    display: flex;
+    align-items: flex-end;
+  }
+  .two p, .three p{
+    margin-bottom: 0;
+    font-size: 1rem;
+  }
+  .two input, .three input{
+    width: 50%;
+    border-width: 0 0 1px 0;
+  }
+
+  .four{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    flex-direction: column;
+    padding-right: 5%;
+  }
+  .four p{
+    margin: 5px;
+  }
+  .four .check{
+    display: flex;
+    justify-content: flex-end
+  }
+
+.five {
+    grid-column: 1;
+    grid-row: 2 / 7;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.five .todo{
+    text-align: end;
+    margin-right: 40px;
+}
+.five .item{
+    width: 90%;
+    border: solid;
+    border-width: 0 0 1px 0;
+    border-color: black;
+}
+.five .item-text{
+    border: none;
+    width: 90%;
+    height: 30px;
+}
+.five .item-check{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+}
+.container p{
+    align-self: center;
+    width: 90%;
+}
+ 
