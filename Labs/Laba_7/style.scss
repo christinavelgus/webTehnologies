@@ -1,0 +1,51 @@
+$primary-color: #e44d26; 
+$secondary-color: #ffd700;
+$font-family: 'Cursive', sans-serif;
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f2f2f2; 
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+
+  &__header {
+    position: relative;
+    background-color: $primary-color;
+    padding: 30px 0;
+
+    &__title {
+      color: #fff;
+      font-family: $font-family;
+      font-size: 2.5em;
+      margin: 0;
+    }
+  }
+
+  &__content {
+    padding: 20px;
+
+    &__message {
+      color: $secondary-color;
+      font-family: $font-family;
+      font-size: 1.3em;
+      width: 40%;
+      margin-left: 30%;
+      line-height: 1.5;
+    }
+  }
+
+  &__image {
+    width: 40%;
+    border-bottom: 2px solid #ccc;
+  }
+}
