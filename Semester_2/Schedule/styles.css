@@ -1,0 +1,42 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.schedule {
+  display: grid;
+  gap: 20px;
+}
+
+.day {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.lesson {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.lesson:first-child {
+  border-top: none;
+}
+
+.lesson h4 {
+  font-size: 1.2em;
+}
+
+.lesson p {
+  margin: 5px 0;
+}
