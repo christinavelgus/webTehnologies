@@ -1,6 +1,8 @@
 async function loadSchedule() {
   try {
-    const response = await fetch("http://localhost:8000/schedule.json");
+    const response = await fetch(
+      "https://christinavelgus.github.io/webTehnologies/Semester_2/Schedule/schedule.json"
+    );
     const data = await response.json();
     displaySchedule(data.schedule);
   } catch (error) {
