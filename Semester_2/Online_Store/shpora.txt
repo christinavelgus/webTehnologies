@@ -1,0 +1,14 @@
+CLIENT
+WIN + R => cmd (2 рази)
+D:
+cd D:\University\web\webTehnologies\Semester_2\Store\client
+npm start
+
+SERVER:
+WIN + R => cmd
+D:
+cd D:\University\web\webTehnologies\Semester_2\Store\server
+npm run dev
+
+
+TO STOP => CTRL + C
